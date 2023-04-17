@@ -2,8 +2,9 @@ public class Hufflepuff extends HogwartsStudents{
     private int workday;
     private int faint;
     private int honesty;
-    public Hufflepuff(String name, String surname, int workday, int faint, int honesty) {
-        super(name, surname);
+
+    public Hufflepuff(String faculty, String name, String surname, int power, int transgression, int workday, int faint, int honesty) {
+        super(faculty, name, surname, power, transgression);
         this.workday = workday;
         this.faint = faint;
         this.honesty = honesty;
@@ -25,6 +26,16 @@ public class Hufflepuff extends HogwartsStudents{
     }
     public void setHonesty(int honesty) {
         this.honesty = honesty;
+    }
+    @Override
+    public int getTotalAbility() {
+        return workday + faint + honesty;
+    }
+    @Override
+    public String toString() {
+        return "Трудолюбие " + workday +
+                ", верност " + faint +
+                ", честность " + honesty;
     }
 }
 
