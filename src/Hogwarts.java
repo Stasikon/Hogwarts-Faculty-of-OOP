@@ -78,7 +78,6 @@ public class Hogwarts {
         }
 
     }
-
     public String compareSlytherin(Slytherin first, Slytherin second) {
         int firstPoints = first.getaTick() + first.getDetermination() + first.getAmbition() + first.getResourcefulness()+first.getThirstForPower();
         int secondPoints = second.getaTick() + second.getDetermination() + second.getAmbition() + first.getResourcefulness()+first.getThirstForPower();

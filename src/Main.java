@@ -19,6 +19,5 @@ public class Main {
         System.out.println(hogwarts.compareRavenclaws(hogwarts.ravenclaws[1], hogwarts.ravenclaws[0]));
         System.out.println(hogwarts.compareSlytherin(hogwarts.slytherins[0], hogwarts.slytherins[1]));
         hogwarts.compare(hogwarts.slytherins[0],hogwarts.hufflepuffs[0]);
-
     }
 }

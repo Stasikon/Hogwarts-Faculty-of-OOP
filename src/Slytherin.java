@@ -56,3 +56,4 @@ public class Slytherin extends HogwartsStudents{
                 ", жажда власти " + thirstForPower;
     }
 }
+

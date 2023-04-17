@@ -51,7 +51,6 @@ public abstract class HogwartsStudents {
                 '}';
     }
     public abstract int getTotalAbility();
-
     public int commandAbility() {
         return power + transgression;
     }

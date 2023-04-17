@@ -47,3 +47,4 @@ public class Ravenclaw extends HogwartsStudents{
                 ", креативность " + creativity;
     }
 }
+
