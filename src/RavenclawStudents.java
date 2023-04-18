@@ -1,11 +1,10 @@
-public class Ravenclaw extends HogwartsStudents{
+public class RavenclawStudents extends HogwartsStudents{
     private int mind;
     private int wisdom;
     private int wit;
     private int creativity;
-
-    public Ravenclaw(String faculty, String name, String surname, int power, int transgression, int mind, int wisdom, int wit, int creativity) {
-        super(faculty, name, surname, power, transgression);
+    public RavenclawStudents(String name, String surname, int power, int transgression, int mind, int wisdom, int wit, int creativity) {
+        super(name, surname, power, transgression);
         this.mind = mind;
         this.wisdom = wisdom;
         this.wit = wit;

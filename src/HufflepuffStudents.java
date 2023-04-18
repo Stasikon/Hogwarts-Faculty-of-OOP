@@ -1,14 +1,15 @@
-public class Hufflepuff extends HogwartsStudents{
+public class HufflepuffStudents extends HogwartsStudents{
     private int workday;
     private int faint;
     private int honesty;
 
-    public Hufflepuff(String faculty, String name, String surname, int power, int transgression, int workday, int faint, int honesty) {
-        super(faculty, name, surname, power, transgression);
+    public HufflepuffStudents(String name, String surname, int power, int transgression, int workday, int faint, int honesty) {
+        super(name, surname, power, transgression);
         this.workday = workday;
         this.faint = faint;
         this.honesty = honesty;
     }
+
     public int getWorkday() {
         return workday;
     }

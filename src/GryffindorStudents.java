@@ -1,13 +1,15 @@
-public class Gryffindor extends HogwartsStudents {
+public class GryffindorStudents extends HogwartsStudents {
     private int nobility;
     private int honor;
     private int bravery;
-    public Gryffindor(String faculty, String name, String surname, int power, int transgression, int nobility, int honor, int bravery) {
-        super(faculty, name, surname, power, transgression);
+
+    public GryffindorStudents(String name, String surname, int power, int transgression, int nobility, int honor, int bravery) {
+        super(name, surname, power, transgression);
         this.nobility = nobility;
         this.honor = honor;
         this.bravery = bravery;
     }
+
     public int getNobility() {
         return nobility;
     }
@@ -37,3 +39,4 @@ public class Gryffindor extends HogwartsStudents {
                 ", храбрость " + bravery;
     }
 }
+

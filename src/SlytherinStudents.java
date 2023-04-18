@@ -1,18 +1,19 @@
-public class Slytherin extends HogwartsStudents{
+public class SlytherinStudents extends HogwartsStudents{
     private int aTick;
     private int determination;
     private int ambition;
     private int resourcefulness;
     private int thirstForPower;
 
-    public Slytherin(String faculty, String name, String surname, int power, int transgression, int aTick, int determination, int ambition, int resourcefulness, int thirstForPower) {
-        super(faculty, name, surname, power, transgression);
+    public SlytherinStudents(String name, String surname, int power, int transgression, int aTick, int determination, int ambition, int resourcefulness, int thirstForPower) {
+        super(name, surname, power, transgression);
         this.aTick = aTick;
         this.determination = determination;
         this.ambition = ambition;
         this.resourcefulness = resourcefulness;
         this.thirstForPower = thirstForPower;
     }
+
     public int getaTick() {
         return aTick;
     }
